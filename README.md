@@ -12,7 +12,7 @@ A VS Code agent plugin for focused .NET code reviews. It helps identify bugs, re
 
 In VS Code, open the Command Palette and run **Chat: Install Plugin From Source**. Enter this repository's Git URL and follow the prompts.
 
-To use a local checkout, add its path to the `chat.pluginLocations` setting in your user or workspace `settings.json`:
+To use a local checkout, add its path to the `chat.pluginLocations` setting in your user `settings.json`:
 
 ```json
 {
@@ -26,4 +26,4 @@ To use a local checkout, add its path to the `chat.pluginLocations` setting in y
 
 Choose **My .NET Review** from the agent picker and ask it to review the current changes or a specific set of files. The reviewer returns findings first, ordered by severity, with file and line references, assumptions, and test gaps. It keeps the review focused on the requested change and its direct dependencies.
 
-The `code-reviewer` skill is available for review and code-quality analysis requests. The Microsoft Learn MCP server provides access to relevant Microsoft documentation when needed.
+The `/my-dotnet-review:code-reviewer` skill is available for review and code-quality analysis requests. The Microsoft Learn MCP server provides access to relevant Microsoft documentation when needed.
