@@ -1,0 +1,12 @@
+{
+	"$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+	"name": "my-dotnet-review",
+	"version": "1.0.0",
+	"description": "Review .NET changes for bugs, regressions, analyzer and style issues, architecture risks, test gaps, and maintainability concerns.",
+	"keywords": [
+		"dotnet",
+		"code-review",
+		"static-analysis",
+		"microsoft-learn"
+	]
+}
